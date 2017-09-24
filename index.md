@@ -12,11 +12,8 @@ These docs cover how to set up, configure, and optimise autonomous applications 
 4. Demo Applications:
     1. [Robotic control in Python]()
     2. [Building a simple dashboard with Javascript]()
-3. [Blackbox Architecture]()
-4. [Deployment ]()
-5. [Monitoring and Metrics]()
-6. [Security]()
-7. [Terms & Licence]()
+5. [Security]()
+6. [Terms & Licence]()
 
 ```
 
