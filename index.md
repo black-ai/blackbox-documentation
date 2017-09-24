@@ -6,15 +6,17 @@ These docs cover how to set up, configure, and optimise autonomous applications 
 
 1. _Introduction_
 2. Getting Started
-3. Making Websocket Requests
+    1. [Account Setup](#)
+    2. [Networking and unit setup]()
+3. [Making Websocket Requests]()
 4. Demo Applications:
-    1. Robotic control in Python
-    2. Building a simple dashboard with Javascript
-3. Blackbox Architecture
-4. Deployment 
-5. Monitoring and Metrics
-6. Security
-7. Terms & Licence
+    1. [Robotic control in Python]()
+    2. [Building a simple dashboard with Javascript]()
+3. [Blackbox Architecture]()
+4. [Deployment ]()
+5. [Monitoring and Metrics]()
+6. [Security]()
+7. [Terms & Licence]()
 
 ```
 
