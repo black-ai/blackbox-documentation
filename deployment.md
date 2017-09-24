@@ -23,11 +23,11 @@ Here are a few things you can do that will increase the likelihood of your pull 
 
 ## Resources
 
-- [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/)
+- [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/deployment.md)
 - [Using Pull Requests](https://help.github.com/articles/using-pull-requests/)
 - [GitHub Help](https://help.github.com)
 
 [fork]: https://github.com/pages-themes/minimal/fork
 [pr]: https://github.com/pages-themes/minimal/compare
 [style]: http://ben.balter.com/jekyll-style-guide/
-[code-of-conduct]: CODE_OF_CONDUCT.md
+[code-of-conduct]: blackbox-architecture.md
