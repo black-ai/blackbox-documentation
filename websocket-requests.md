@@ -54,7 +54,9 @@ Track
     The track positions are oriented to the floormap indices
     
     Format:
-    {"data": {{
+    
+
+	{"data": { {
                         "track_id": <trackid1>,
                         "position": {"x": trackid1.position.x, "y": trackid1.position.y}, // type : int 
                         "velocity": {"x": trackid1.velocity.x, "y": trackid1.velocity.y}, // type : float
@@ -69,7 +71,8 @@ Track
                }, "subscriptionType": "track"}
    
     parameters:
-        position: x,y positions of the track x,y are both ints relative to the floormap
+        
+	position: x,y positions of the track x,y are both ints relative to the floormap
         velocity : x,y velocities in floats 
         timestamp : time in timestamp
         
