@@ -26,6 +26,26 @@
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+        {% if site.show_sidebar %}
+        <ul>
+          <li><a href="/"><i>Introduction</i></a></li>
+          <li><a href="/getting-started">Getting Started</a></li>
+          <ul>
+            <p>Account Setup</p>
+            <li><a href="/account-setup">Account Setup</a></li>
+            <li><a href="/networking-setup">Networking and unit setup</a></li>
+          </ul>
+          <ul>
+            <p>Demo Applications</p>
+            <li><a href="/python-example">Robotic control in Python</a></li>
+            <li><a href="/javascript-example">Smple dashboard with Javascript</a></li>
+          </ul>
+          <li><a href="/security">Security</a></li>
+          <li><a href="/licence">Terms & Licence</a></li>
+        </ul>
+
+        {% endif %}
+
         {% if site.show_downloads %}
           <ul>
             <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
