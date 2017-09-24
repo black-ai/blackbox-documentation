@@ -4,17 +4,6 @@ The Blackbox system makes it easy to deploy and scale Autonomous systems in unpr
 
 These docs cover how to set up, configure, and optimise autonomous applications with the blackbox sensor system. The documentation is broken up into the following sections:
 
-1. _Introduction_
-2. Getting Started
-    1. [Account Setup](#)
-    2. [Networking and unit setup]()
-3. [Making Websocket Requests]()
-4. Demo Applications:
-    1. [Robotic control in Python]()
-    2. [Building a simple dashboard with Javascript]()
-5. [Security]()
-6. [Terms & Licence]()
-
 ```
 
 For more details see [our website](https://black.ai/).
