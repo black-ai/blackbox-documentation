@@ -29,7 +29,7 @@ Account setup and configuration involves 3 steps:
     1. core application config; and
     2. unit / sensor positioning.
     
-    ###### Step 1: Core Application Config
+    ###### Step 1: Core Application Config ######
     
     On the left of this page you will see a graph (top-down map) representing your Application Space. This is a visual guide to the physical domain in which your autonomous system will operate, and is a bounding area that encapsulates the sensors and Blackbox units you will be positioning.
      
@@ -46,7 +46,7 @@ Account setup and configuration involves 3 steps:
     * Mapping Granularity
         * **Note: temporarily disabled.** This is the positional accuracy of static object location on the graph API in milimeters. We suggest a value of 30 for best performance. 
         
-    ###### Step 2: Unit / Sensor Config
+    ###### Step 2: Unit / Sensor Config ######
     
     Above the Core Application Config dialogue is a button to switch to the Unit Config tag. Press this. 
     
