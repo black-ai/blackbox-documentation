@@ -1,6 +1,6 @@
 title: Blackbox Documentation
 description: Technical docs for setup and configuration of Blackbox applications
-
+future: true
 show_downloads: false
 show_sidebar: true
 google_analytics:
