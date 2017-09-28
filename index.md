@@ -1,8 +1,8 @@
 ## Welcome to the Blackbox Documentation
+The Blackbox system makes it quick and easy to deploy and scale autonomous systems in any unpredictable physical environment. Whether you prefer programming in Python or Javascript, or getting your hands dirty with C++ and raw sockets, Blackbox enables you to build your complex systems faster, without worrying about the complexity of cutting-edge computer vision. You can focus on solving real world problems, while Blackbox takes care of the rest. 
 
-The Blackbox system makes it easy to deploy and scale Autonomous systems in unpredictable physical environments. Whether you prefer programming in Python or Javascript, or getting your hands dirty with C++ and raw sockets, Blackbox keeps the complexity of cutting-edge CV out of your way — allowing you to build complex systems faster, and leaving you to focus on solving real world problems.
+These documents cover how to set up, configure and optimise autonomous applications with the Blackbox sensor system. The documentation is broken up into sections which are listed in the sidebar. 
 
-These docs cover how to set up, configure, and optimise autonomous applications with the blackbox sensor system. The documentation is broken up into the following sections:
 
 ```
 
