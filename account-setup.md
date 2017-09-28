@@ -1,39 +1,39 @@
 ## Account setup
-Account registration is currently limited to a small number of early partners and will be open to the public soon. If you are a member of a research institution across Asia Pacific or North America and are interested in beta testing or piloting the system please contact us at [contact@black.ai](mailto:contact@black.ai)
+_Please note:_ Account registration is currently limited to a small number of early partners and will be open to the public soon. If you are a member of a research institution across Asia Pacific or North America and are interested in beta testing or piloting the system please contact us at [contact@black.ai](mailto:contact@black.ai)
 
 Account setup and configuration involves 3 steps: 
 1. Unit Registration
 
     Once logged in to your account at [config.black.ai](http://config.black.ai), visit the [Account page](http://config.black.ai/account) to view any Blackbox units linked to your user account.
     
-    If you have any Blackbox units on hand that are yet to be added to the system, simply enter the unit's hardware ID, registration key, and a nickname by which this unit can be easily identified. We recommend labelling the underside of your units so they can be physically idenfied during the config phase.
+    If you have any Blackbox units that are yet to be added to the system, simply enter the unit’s hardware ID, registration key and a nickname by which this you can be easily identified. We recommend labelling the underside of your units so they can easily be distinguished from each other during the config stage. **Note: Once registered the units cannot be renamed. 
+
     
-    **Warning: once registered units cannot currently be renamed.**
      
-    If your newly registered units don't appear after form submission, reload the page. 
+    If your newly registered units don't appear on the Account Page after form submission, reload the page. 
     
-    _Note: your Black.ai contact may have already completed this step for you._
+    _Note: your black.ai contact may have already completed this step for you._
 
 2. Application Creation:
     
     Next, visit the [Application page](http://config.black.ai/applications) to view autonomous applications linked to your account. 
     
-    Simply click configure on an existing application or create a new one. Applications _can_ be renamed once set.
+    Simply click configure on an existing application or create a new one. **Note: Applications _can_ be renamed once set.
 
     If your new application doesn't appear after form submission, reload the page and proceed to configure.
 
 3. Application Config:
     
-    The Application Config page is where you set up and fine-tune an individual application. Application configuration can be largely divided into two parts:
+    The Application Config page is where you set up and fine-tune an individual application. Application configuration can be divided into two parts:
     
     1. core application config; and
     2. unit / sensor positioning.
     
     ###### Step 1: Core Application Config ######
     
-    On the left of this page you will see a graph (top-down map) representing your Application Space. This is a visual guide to the physical domain in which your autonomous system will operate, and is a bounding area that encapsulates the sensors and Blackbox units you will be positioning.
+    To the left of this page you will see a graph (top-down map) representing your Application Space. This is a visual guide to the physical environment which your autonomous systems will operate and is a bounding area that encapsulates the sensors and Blackbox units that you will position. 
      
-    On the right side of the page is the "Core Application Configuration" dialogue with a few parameters to tweak:
+   To the right side of this page you will see the “Core Application Configuration” dialogue, with a few parameters to tweak:
     
     * Application Name
         * A nickname for this application.
@@ -48,9 +48,7 @@ Account setup and configuration involves 3 steps:
         
     ###### Step 2: Unit / Sensor Config ######
     
-    Above the Core Application Config dialogue is a button to switch to the Unit Config tag. Press this. 
-    
-    If you do not yet have any units linked to this application, they should appear at the bottom with a button to 'link', just press this. 
+    Click the Unit Config tag, which you can find above the Core Application Config dialogue. Note: If you do not yet have any units linked to this application, they should appear at the bottom of the application page with a button to ‘link’, press this to do so. 
     
     Once units are linked, you should see an edit button to position them in the world space. If this doesn't appear, reload the page. 
     
