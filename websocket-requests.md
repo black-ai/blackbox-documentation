@@ -3,6 +3,7 @@ The Blackbox websocket API structure is quite straightforward. Following are the
 
 #### Authentication
 You will be provided with API credentials by either direct contact from black.ai or through the Application Config page. 
+
 _Note: Please contact us if your Application does not show automatically generated API credentials._
  
 #### API Architecture
