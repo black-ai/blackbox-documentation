@@ -1,6 +1,6 @@
 ## Contributing
 
-Hi there! If you'd like to submit bug reports or help build on any of our example projects we're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
+Hi there! If you'd like to submit bug reports or help us build on any of our example projects, we're thrilled that you'd like to contribute to this project. Your help is essential for keeping it great.
 
 Please note that this project is released with a [Contributor Code of Conduct][code-of-conduct]. By participating in this project you agree to abide by its terms.
 
