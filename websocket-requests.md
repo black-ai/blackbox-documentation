@@ -1,11 +1,9 @@
 ## Making Websocket Requests
-
-The blackbox websocket API architecture is fairly simple. 
+The Blackbox websocket API structure is quite straightforward. Following are the components of making websocket requests.  
 
 #### Authentication
-You will be provided with API credentials, either by your Black.ai contact directly or through the Application Configuration page.
-
-**note: please contact us if your Application does not show automatically generated API credentials**
+You will be provided with API credentials by either direct contact from black.ai or through the Application Config page. 
+_Note: Please contact us if your Application does not show automatically generated API credentials._
  
 #### API Architecture
 The Blackbox API follows a simple 'publisher / subscriber' model, making it possible to query for data both historically and in real-time.  
@@ -30,8 +28,9 @@ Publishers
 #### NewTrack:
 This sends out the latest tracks in the system which the client was earlier not notified about. 
 
-If the client closes and reopens the connection. This process starts afresh.
-The format of the information would be:
+This sends out the latest tracks in the system which the client was not earlier notified about. 
+If the client closes and reopens the connection, this process will start again. The format of the information would be:
+
 
         {"data": "<trackid1>", "subscriptiontype": "newtrack"}
     
@@ -43,7 +42,7 @@ parameters:
 
 #### ExpiredTrack:
 This sends out the expired tracks in the system which the client was earlier notified about. 
-If the client closes and reopens the connection. This process starts afresh.
+If the client closes and reopens the connection, this process will start again. The format of the information would be:
 The format of the information would be:
 
         {"data": "<trackid1>", "subscriptiontype": "expiredtrack"}
@@ -55,10 +54,7 @@ parameters:
 
 
 #### FloorMap
-This sends out the floormap of the global space the blackbox operates in.
-The client is automatically subscribed to the floormap on connection and once the floormap is published auto un subscribed.
-
-The client could subscribe to the floormap specifically at any point in time (handled in subscription section)
+This sends out the floormap of the global space that the blackbox operates in. The client is automatically subscribed to the floormap on connection, and automatically unsubscribed once the floormap is published. The client can subscribe to the floormap specifically at any point in time (please refer to the subscription section for more information).
 
 The floor map has a default 10x10 cm cell size (see Application Config => Mapping Granularity).
     
@@ -109,6 +105,7 @@ parameters:
 
     This is the list of subscriptions . The subscriptions generally have message types attached to them. 
     The messagetypes are either subscribe  or unsubscribe,
+
 FloorMap
     The client could either subscribe or unsubscribe to the floormap. 
     Please note that the client is auto subscribed to the floormap on connection and 
