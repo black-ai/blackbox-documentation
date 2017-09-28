@@ -1,5 +1,5 @@
 ## Security
-Considerations for application security and authentication. 
+The considerations for application security and authentication are as follows. 
 #### Identities and Authentication
 Login credentials are currently set to be shared across an organisation. Application permissions and user segregation are coming soon.
 #### Programmer Keys
